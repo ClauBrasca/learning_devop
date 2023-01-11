@@ -11,4 +11,4 @@ resource "aws_instance" "my-first-server" {
         instance_type = "t2.micro"
 
 }
-
+#adding comments to test
