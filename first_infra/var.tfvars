@@ -3,8 +3,8 @@ variable "vpc_id"{
 }
 
 variable "region" {
-  type    = list(string)
-  default = ["eu-west-1"]
+  type    = string
+  default = "eu-west-1"
 }
 
 
